@@ -26,7 +26,7 @@
   position: relative;
   color: white;
   background-image: url(./image/pexelsphoto1120344.jpeg);
-  height: 100vh;
+  height: 700px;
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -71,6 +71,122 @@
   height: 15px;
   background-color: white;
 }
+
+.section1 {
+  background-color: #f2f2f2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 60px 0px;
+}
+.section1 .s1__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+.section1 .s1__flex .s1__item {
+  margin: 10px;
+  width: 33.3333333%;
+}
+.section1 .s1__flex .s1__it--flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section1 .s1__flex .s1__it--flex1 .flex1--flex {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section1 .s1__flex .s1__it--flex1 .flex1--flex h2 {
+  margin: 50px 0px 0 0;
+  font-size: 2.25rem;
+  font-weight: 100;
+}
+.section1 .s1__flex .s1__it--flex1 .flex1--flex p {
+  margin: 30px 22px 0 0;
+  color: #841df7;
+  font-size: 1.125rem;
+}
+.section1 .s1__flex .s1__it--flex1 .flex1--flex .flex1--italic {
+  color: #666666;
+  line-height: 20px;
+  margin: 20px 0 0 0;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.section1 .s1__flex .s1__it--flex1 .flex1--flex .flex1--button {
+  width: 150px;
+  height: 45px;
+  border: 1px solid #841df7;
+  background: #f2f2f2;
+  margin: 30px 0;
+}
+.section1 .s1__flex .s1__it--flex2 {
+  background-image: url(./image/pexelsphoto1204649.jpeg);
+  min-height: 643px;
+  background-position: center;
+}
+.section1 .s1__flex .s1__it--flex2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.section1 .s1__flex .s1__it--flex3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section1 .s1__flex .s1__it--flex3 .s1--flex3--img {
+  margin-bottom: 10px;
+  background-image: url(./image/pexelsphoto313691.jpeg);
+  min-height: 322px;
+  background-size: cover;
+}
+.section1 .s1__flex .s1__it--flex3 .s1--flex3--img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.section1 .s1__flex .s1__it--flex3 .flex3--text {
+  font-size: 0.95rem;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  background-color: #4d58d7;
+  padding: 32% 20px;
+  height: 50%;
+}
+
 @media screen and (max-width: 767px) {
   .banner .banner__item {
     left: 0;
@@ -79,11 +195,21 @@
   .banner .banner__item h1 {
     font-size: 3.5rem;
   }
+
+  .section1 .s1__flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section1 .s1__flex .s1__item {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 500px) {
-  .banner .banner {
-    height: 50vh !important;
-  }
   .banner .banner__item {
     min-height: 330px;
     bottom: 0;
@@ -94,5 +220,26 @@
   }
   .banner .banner__item p {
     font-size: 1.25rem !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .banner {
+    max-height: 80vh;
+  }
+  .banner .banner__background {
+    max-height: 80vh;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .section1 .s1__flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .section1 .s1__flex .s1__it--flex3 {
+    width: 70%;
+    height: 50%;
+  }
+  .section1 .s1__flex .s1__it--flex3 .flex3--text {
+    padding: 25% 20px;
   }
 }
