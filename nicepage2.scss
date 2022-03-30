@@ -19,17 +19,17 @@
 .banner {
   position: relative;
   color: white;
-  background-image: url(./image/pexelsphoto1120344.jpeg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(127, 68, 192, 0.65),
+      rgba(127, 68, 192, 0.65)
+    ),
+    url(./image/pexelsphoto1120344.jpeg);
   height: 700px;
   background-size: cover;
   background-position: center;
   z-index: 0;
-  .banner__background {
-    background-color: #841df7;
-    z-index: 1;
-    height: inherit;
-    opacity: 0.5;
-  }
+
   .banner__item {
     margin: auto;
     top: 150px;
