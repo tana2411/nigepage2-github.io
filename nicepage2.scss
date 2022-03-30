@@ -55,7 +55,7 @@
 
     .bn--line {
       margin-top: 40px;
-      width: 130px;
+      width: 110px;
       height: 15px;
       background-color: white;
     }
@@ -172,7 +172,7 @@
   .s2__flex {
     margin: 3rem auto 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     .s2__flex--item {
       h4 {
         font-size: 1.25rem;
@@ -360,7 +360,7 @@
       flex-direction: column;
     }
     .flex--item {
-      width: 80% !important;
+      width: 95% !important;
     }
   }
 }
@@ -397,12 +397,24 @@
     }
     max-height: 80vh;
   }
+  .section1 {
+    .flex1--flex {
+      p {
+        margin: 0 !important;
+      }
+    }
+  }
   .section5 {
     h2 {
       font-size: 1.5rem !important;
     }
     .s5--input {
       margin: 60px 50px 0 50px !important;
+    }
+  }
+  .section5 {
+    .input--textarea {
+      max-width: 100% !important;
     }
   }
 }
