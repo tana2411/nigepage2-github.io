@@ -365,6 +365,18 @@
           box-sizing: border-box;
   width: 100%;
 }
+.section5 .s5__flex .s5--input .s5--button {
+  margin: auto;
+  border: 1px solid white;
+  width: 130px;
+  height: 50px;
+  color: white;
+  background: #37363b;
+}
+.section5 .s5__flex .s5--input .s5--button:hover {
+  color: black;
+  background-color: white;
+}
 
 .footer {
   font-size: 0.9rem;
@@ -449,7 +461,7 @@
     font-size: 1.5rem !important;
   }
   .section5 .s5--input {
-    margin: 60px 50px 0 50px;
+    margin: 60px 50px 0 50px !important;
   }
 }
 @media screen and (max-width: 1180px) {
