@@ -288,6 +288,103 @@
   background-image: url(./image/Untitled4.png);
 }
 
+.section4 {
+  padding: 70px 0;
+  background-color: #4d58d7;
+}
+.section4 .s4__flex {
+  max-width: 75%;
+  width: 700px;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section4 .s4__flex h3 {
+  font-size: 2.25rem;
+  color: white;
+  font-weight: 500;
+}
+.section4 .s4__flex .s4--button {
+  width: 12rem;
+  height: 3rem;
+  margin-top: 30px;
+  background: #4d58d7;
+  color: white;
+  border: 2px solid white;
+  font-size: 1rem;
+}
+.section4 .s4__flex .s4--button:hover {
+  background-color: white;
+  color: black;
+}
+
+.section5 {
+  padding: 70px 0;
+  background-color: #37363b;
+}
+.section5 .s5__flex {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 900px;
+  max-width: 100%;
+}
+.section5 .s5__flex h2 {
+  font-size: 2.25rem;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+.section5 .s5__flex .s5--input {
+  margin: 60px 80px 0 80px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section5 .s5__flex .s5--input .s5--input--it {
+  background-color: #37363b;
+  border: 1px solid white;
+  color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.footer {
+  font-size: 0.9rem;
+  padding: 35px 0;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: #ffb2bf;
+}
+.footer a:hover {
+  color: #f2f2f2;
+}
+
 @media screen and (max-width: 767px) {
   .banner .banner__item {
     left: 0;
@@ -351,6 +448,10 @@
   }
   .banner .banner__background {
     max-height: 80vh;
+  }
+
+  .section5 h2 {
+    font-size: 1.5rem !important;
   }
 }
 @media screen and (max-width: 1180px) {
